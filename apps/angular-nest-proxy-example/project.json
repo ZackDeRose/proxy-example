@@ -51,6 +51,9 @@
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
+      "options": {
+        "proxyConfig": "apps/angular-nest-proxy-example/src/proxy.conf.json"
+      },
       "configurations": {
         "production": {
           "browserTarget": "angular-nest-proxy-example:build:production"

@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ApplicationConfig } from '@angular/core';
 import {
   provideRouter,
